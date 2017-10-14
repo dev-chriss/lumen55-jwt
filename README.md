@@ -46,7 +46,7 @@ just a demo for rest api design
     post   /api/auth              	 create token
     post   /api/register              	 register a new user
     post   /api/login              	 login
-    put    /api/authorizations           refresh token
+    put    /api/authorizations/current   refresh token
     delete /api/logout            	 logout
     
     post   /api/posts              	 create a post
