@@ -12,7 +12,7 @@ For frontend example, im using [Vuejs 2.2](https://github.com/chrissetyawan/vuej
 - CRUD example
 - JWT-Auth - tymon/jwt-auth
 - Dingo API - dingo/api
-- Laravel-CORS barryvdh/laravel-cors
+- vluzrmos/lumen-cors
 
 ```
 
@@ -23,16 +23,14 @@ For frontend example, im using [Vuejs 2.2](https://github.com/chrissetyawan/vuej
 $ composer install
 $ cp .env.example .env
 $ vim .env
-        DB_*
-            config  uration your database
-	    JWT_SECRET
-            php artisan jwt:secret
-	    APP_KEY
-            key:generate is abandoned in lumen, please use 
-            md5(uniqid())，str_random(32) etc.，maybe use jwt:secret and copy it
+      DB_*          configuration your database
+      JWT_SECRET    php artisan jwt:secret
+      APP_KEY       key:generate is abandoned in lumen, 
+                    please use md5(uniqid())，str_random(32) etc.，maybe use jwt:secret and copy it
 
 $ php artisan migrate
 $ php artisan db:seed
+$ php -S localhost:8000 -t ./public
 
 
 ```
