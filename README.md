@@ -8,8 +8,8 @@ For frontend example, im using [Vuejs 2.2](https://github.com/chrissetyawan/vuej
 
 ```
 
-- Login, Logout, Register
-- CRUD example
+- Login, Logout, Register, Change password, Update Profile
+- CRUD example, User Management, Role based restriction
 - JWT-Auth - tymon/jwt-auth
 - Dingo API - dingo/api
 - vluzrmos/lumen-cors
